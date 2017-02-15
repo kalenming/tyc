@@ -1,0 +1,737 @@
+2017-02-15 16:14:34 [scrapy] INFO: Scrapy 1.1.1 started (bot: tyc)
+2017-02-15 16:14:34 [scrapy] INFO: Overridden settings: {'LOG_FILE': 'ten.log', 'NEWSPIDER_MODULE': 'tyc.spiders', 'SPIDER_MODULES': ['tyc.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'tyc'}
+2017-02-15 16:14:34 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-02-15 16:14:35 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-02-15 16:14:35 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-02-15 16:14:35 [scrapy] INFO: Enabled item pipelines:
+['tyc.pipelines.TycPipeline']
+2017-02-15 16:14:35 [scrapy] INFO: Spider opened
+2017-02-15 16:14:35 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:14:35 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-02-15 16:14:36 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/robots.txt> (referer: None)
+2017-02-15 16:14:36 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E7%A6%8F%E9%9D%96%E7%A6%8F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:14:41 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64649/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:14:41 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:14:41 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64649/wd/hub/session/cd3af930-f356-11e6-b50c-b775cd17f42a/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E7%A6%8F%E9%9D%96%E7%A6%8F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "cd3af930-f356-11e6-b50c-b775cd17f42a"}
+2017-02-15 16:15:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:04 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64649/wd/hub/session/cd3af930-f356-11e6-b50c-b775cd17f42a/element {"using": "class name", "value": "query_name", "sessionId": "cd3af930-f356-11e6-b50c-b775cd17f42a"}
+2017-02-15 16:15:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:05 [tyc] INFO: 经查询没有这个企业！
+2017-02-15 16:15:05 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64649/wd/hub/session/cd3af930-f356-11e6-b50c-b775cd17f42a {"sessionId": "cd3af930-f356-11e6-b50c-b775cd17f42a"}
+2017-02-15 16:15:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%B0%91%E8%88%AA%E8%B7%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%B8%82%E9%94%A6%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%96%E7%BA%AA%E4%BA%92%E7%94%9F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%93%81%E4%BB%B6%E5%8A%A0%E5%B7%A5%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A5%A5%E5%87%AF%E8%A1%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E9%80%94%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%99%A8%E9%85%8D%E9%80%9A%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:05 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%AD%E9%80%9A%E5%B8%82%E5%A4%A9%E7%A6%8F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64681/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:15:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64681/wd/hub/session/de4d6550-f356-11e6-8330-1559b28b2bb4/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%B0%91%E8%88%AA%E8%B7%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "de4d6550-f356-11e6-8330-1559b28b2bb4"}
+2017-02-15 16:15:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64681/wd/hub/session/de4d6550-f356-11e6-8330-1559b28b2bb4/element {"using": "class name", "value": "query_name", "sessionId": "de4d6550-f356-11e6-8330-1559b28b2bb4"}
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64681/wd/hub/session/de4d6550-f356-11e6-8330-1559b28b2bb4/element/:wdc:1487146527721/attribute/href {"name": "href", "id": ":wdc:1487146527721", "sessionId": "de4d6550-f356-11e6-8330-1559b28b2bb4"}
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64681/wd/hub/session/de4d6550-f356-11e6-8330-1559b28b2bb4 {"sessionId": "de4d6550-f356-11e6-8330-1559b28b2bb4"}
+2017-02-15 16:15:27 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:27 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/376164553
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%97%8B%E8%BF%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E5%B1%B1%E6%BA%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%93%B8%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E4%BA%91%E5%8D%97%E5%A4%A9%E8%81%9A%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A4%8F%E5%A4%A9%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%89%E6%98%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E7%A5%9E%E5%8A%9B%E6%B1%BD%E9%85%8D%E9%93%B8%E9%80%A0%E5%8E%82&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%90%89%E6%B6%A6%E8%BE%BE%E5%AE%89%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:27 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E8%81%9A%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:15:32 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64706/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:15:32 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:15:32 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64706/wd/hub/session/ebc62ff0-f356-11e6-affd-9fde4230eab6/url {"url": "http://www.tianyancha.com/search?key=%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%B8%82%E9%94%A6%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "ebc62ff0-f356-11e6-affd-9fde4230eab6"}
+2017-02-15 16:16:01 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64706/wd/hub/session/ebc62ff0-f356-11e6-affd-9fde4230eab6/element {"using": "class name", "value": "query_name", "sessionId": "ebc62ff0-f356-11e6-affd-9fde4230eab6"}
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64706/wd/hub/session/ebc62ff0-f356-11e6-affd-9fde4230eab6/element/:wdc:1487146565236/attribute/href {"name": "href", "id": ":wdc:1487146565236", "sessionId": "ebc62ff0-f356-11e6-affd-9fde4230eab6"}
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64706/wd/hub/session/ebc62ff0-f356-11e6-affd-9fde4230eab6 {"sessionId": "ebc62ff0-f356-11e6-affd-9fde4230eab6"}
+2017-02-15 16:16:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:05 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/1516488477
+2017-02-15 16:16:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64732/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:16:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64732/wd/hub/session/0213b890-f357-11e6-94d2-3f76a91cabcd/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%96%E7%BA%AA%E4%BA%92%E7%94%9F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "0213b890-f357-11e6-94d2-3f76a91cabcd"}
+2017-02-15 16:16:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64732/wd/hub/session/0213b890-f357-11e6-94d2-3f76a91cabcd/element {"using": "class name", "value": "query_name", "sessionId": "0213b890-f357-11e6-94d2-3f76a91cabcd"}
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64732/wd/hub/session/0213b890-f357-11e6-94d2-3f76a91cabcd/element/:wdc:1487146595396/attribute/href {"name": "href", "id": ":wdc:1487146595396", "sessionId": "0213b890-f357-11e6-94d2-3f76a91cabcd"}
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64732/wd/hub/session/0213b890-f357-11e6-94d2-3f76a91cabcd {"sessionId": "0213b890-f357-11e6-94d2-3f76a91cabcd"}
+2017-02-15 16:16:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:35 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/684485229
+2017-02-15 16:16:40 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64756/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:16:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:16:40 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64756/wd/hub/session/140e61d0-f357-11e6-90fa-254926c459fe/url {"url": "http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%93%81%E4%BB%B6%E5%8A%A0%E5%B7%A5%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "140e61d0-f357-11e6-90fa-254926c459fe"}
+2017-02-15 16:17:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64756/wd/hub/session/140e61d0-f357-11e6-90fa-254926c459fe/element {"using": "class name", "value": "query_name", "sessionId": "140e61d0-f357-11e6-90fa-254926c459fe"}
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64756/wd/hub/session/140e61d0-f357-11e6-90fa-254926c459fe/element/:wdc:1487146640673/attribute/href {"name": "href", "id": ":wdc:1487146640673", "sessionId": "140e61d0-f357-11e6-90fa-254926c459fe"}
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64756/wd/hub/session/140e61d0-f357-11e6-90fa-254926c459fe {"sessionId": "140e61d0-f357-11e6-90fa-254926c459fe"}
+2017-02-15 16:17:20 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:20 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/771351456
+2017-02-15 16:17:25 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64783/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:17:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:25 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64783/wd/hub/session/2f077120-f357-11e6-a2b2-2b904b24e12e/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A5%A5%E5%87%AF%E8%A1%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "2f077120-f357-11e6-a2b2-2b904b24e12e"}
+2017-02-15 16:17:39 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64783/wd/hub/session/2f077120-f357-11e6-a2b2-2b904b24e12e/element {"using": "class name", "value": "query_name", "sessionId": "2f077120-f357-11e6-a2b2-2b904b24e12e"}
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64783/wd/hub/session/2f077120-f357-11e6-a2b2-2b904b24e12e/element/:wdc:1487146663499/attribute/href {"name": "href", "id": ":wdc:1487146663499", "sessionId": "2f077120-f357-11e6-a2b2-2b904b24e12e"}
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64783/wd/hub/session/2f077120-f357-11e6-a2b2-2b904b24e12e {"sessionId": "2f077120-f357-11e6-a2b2-2b904b24e12e"}
+2017-02-15 16:17:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:43 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/383938054
+2017-02-15 16:17:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64805/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:17:48 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:17:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64805/wd/hub/session/3ca57700-f357-11e6-a5e4-037afc766651/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E9%80%94%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "3ca57700-f357-11e6-a5e4-037afc766651"}
+2017-02-15 16:18:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64805/wd/hub/session/3ca57700-f357-11e6-a5e4-037afc766651/element {"using": "class name", "value": "query_name", "sessionId": "3ca57700-f357-11e6-a5e4-037afc766651"}
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64805/wd/hub/session/3ca57700-f357-11e6-a5e4-037afc766651/element/:wdc:1487146686567/attribute/href {"name": "href", "id": ":wdc:1487146686567", "sessionId": "3ca57700-f357-11e6-a5e4-037afc766651"}
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64805/wd/hub/session/3ca57700-f357-11e6-a5e4-037afc766651 {"sessionId": "3ca57700-f357-11e6-a5e4-037afc766651"}
+2017-02-15 16:18:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:06 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/779272786
+2017-02-15 16:18:11 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64833/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:18:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:11 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64833/wd/hub/session/4a677fa0-f357-11e6-b975-a978b23f184c/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%99%A8%E9%85%8D%E9%80%9A%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "4a677fa0-f357-11e6-b975-a978b23f184c"}
+2017-02-15 16:18:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64833/wd/hub/session/4a677fa0-f357-11e6-b975-a978b23f184c/element {"using": "class name", "value": "query_name", "sessionId": "4a677fa0-f357-11e6-b975-a978b23f184c"}
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64833/wd/hub/session/4a677fa0-f357-11e6-b975-a978b23f184c/element/:wdc:1487146702859/attribute/href {"name": "href", "id": ":wdc:1487146702859", "sessionId": "4a677fa0-f357-11e6-b975-a978b23f184c"}
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64833/wd/hub/session/4a677fa0-f357-11e6-b975-a978b23f184c {"sessionId": "4a677fa0-f357-11e6-b975-a978b23f184c"}
+2017-02-15 16:18:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:22 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/761680155
+2017-02-15 16:18:27 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64857/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:18:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64857/wd/hub/session/541c8b80-f357-11e6-9c57-f5a479eb8b0c/url {"url": "http://www.tianyancha.com/search?key=%E6%98%AD%E9%80%9A%E5%B8%82%E5%A4%A9%E7%A6%8F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "541c8b80-f357-11e6-9c57-f5a479eb8b0c"}
+2017-02-15 16:18:47 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64857/wd/hub/session/541c8b80-f357-11e6-9c57-f5a479eb8b0c/element {"using": "class name", "value": "query_name", "sessionId": "541c8b80-f357-11e6-9c57-f5a479eb8b0c"}
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64857/wd/hub/session/541c8b80-f357-11e6-9c57-f5a479eb8b0c/element/:wdc:1487146731364/attribute/href {"name": "href", "id": ":wdc:1487146731364", "sessionId": "541c8b80-f357-11e6-9c57-f5a479eb8b0c"}
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64857/wd/hub/session/541c8b80-f357-11e6-9c57-f5a479eb8b0c {"sessionId": "541c8b80-f357-11e6-9c57-f5a479eb8b0c"}
+2017-02-15 16:18:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:51 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2320138471
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%9C%A8%E5%8F%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%98%8C%E6%BA%90%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%9D%BF%E5%93%B2%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E4%BA%A8%E5%AE%9C%E5%BE%B7%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E5%8D%97%E6%96%B9%E4%BD%9B%E5%90%89%E4%BA%9A%E6%B1%BD%E8%BD%A6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%87%8D%E5%BA%86%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:18:51 [scrapy] INFO: Crawled 24 pages (at 24 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:18:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BA%8C%E7%8E%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BA%8C%E7%8E%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox took longer than 180.0 seconds..
+2017-02-15 16:18:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%86%A0%E8%83%BD%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%86%A0%E8%83%BD%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox took longer than 180.0 seconds..
+2017-02-15 16:18:56 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64883/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:18:56 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:18:56 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64883/wd/hub/session/65378320-f357-11e6-a9ed-cdb60c336c05/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%97%8B%E8%BF%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "65378320-f357-11e6-a9ed-cdb60c336c05"}
+2017-02-15 16:19:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64883/wd/hub/session/65378320-f357-11e6-a9ed-cdb60c336c05/element {"using": "class name", "value": "query_name", "sessionId": "65378320-f357-11e6-a9ed-cdb60c336c05"}
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64883/wd/hub/session/65378320-f357-11e6-a9ed-cdb60c336c05/element/:wdc:1487146746938/attribute/href {"name": "href", "id": ":wdc:1487146746938", "sessionId": "65378320-f357-11e6-a9ed-cdb60c336c05"}
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64883/wd/hub/session/65378320-f357-11e6-a9ed-cdb60c336c05 {"sessionId": "65378320-f357-11e6-a9ed-cdb60c336c05"}
+2017-02-15 16:19:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:07 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/750891650
+2017-02-15 16:19:12 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64906/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:19:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:12 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64906/wd/hub/session/6e62c590-f357-11e6-8528-c3482ab91a76/url {"url": "http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E5%B1%B1%E6%BA%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%93%B8%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "6e62c590-f357-11e6-8528-c3482ab91a76"}
+2017-02-15 16:19:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64906/wd/hub/session/6e62c590-f357-11e6-8528-c3482ab91a76/element {"using": "class name", "value": "query_name", "sessionId": "6e62c590-f357-11e6-8528-c3482ab91a76"}
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64906/wd/hub/session/6e62c590-f357-11e6-8528-c3482ab91a76/element/:wdc:1487146769550/attribute/href {"name": "href", "id": ":wdc:1487146769550", "sessionId": "6e62c590-f357-11e6-8528-c3482ab91a76"}
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64906/wd/hub/session/6e62c590-f357-11e6-8528-c3482ab91a76 {"sessionId": "6e62c590-f357-11e6-8528-c3482ab91a76"}
+2017-02-15 16:19:29 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:29 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/1533773118
+2017-02-15 16:19:34 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64949/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:19:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:34 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64949/wd/hub/session/7bdc0560-f357-11e6-a67e-8b1bbe288b04/url {"url": "http://www.tianyancha.com/search?key=%E4%BA%91%E5%8D%97%E5%A4%A9%E8%81%9A%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "7bdc0560-f357-11e6-a67e-8b1bbe288b04"}
+2017-02-15 16:19:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64949/wd/hub/session/7bdc0560-f357-11e6-a67e-8b1bbe288b04/element {"using": "class name", "value": "query_name", "sessionId": "7bdc0560-f357-11e6-a67e-8b1bbe288b04"}
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64949/wd/hub/session/7bdc0560-f357-11e6-a67e-8b1bbe288b04/element/:wdc:1487146789435/attribute/href {"name": "href", "id": ":wdc:1487146789435", "sessionId": "7bdc0560-f357-11e6-a67e-8b1bbe288b04"}
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64949/wd/hub/session/7bdc0560-f357-11e6-a67e-8b1bbe288b04 {"sessionId": "7bdc0560-f357-11e6-a67e-8b1bbe288b04"}
+2017-02-15 16:19:49 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:49 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/810602131
+2017-02-15 16:19:54 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64983/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:19:54 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:19:54 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64983/wd/hub/session/87bb4440-f357-11e6-9579-fb0af05f5756/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A4%8F%E5%A4%A9%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "87bb4440-f357-11e6-9579-fb0af05f5756"}
+2017-02-15 16:20:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:64983/wd/hub/session/87bb4440-f357-11e6-9579-fb0af05f5756/element {"using": "class name", "value": "query_name", "sessionId": "87bb4440-f357-11e6-9579-fb0af05f5756"}
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:64983/wd/hub/session/87bb4440-f357-11e6-9579-fb0af05f5756/element/:wdc:1487146808365/attribute/href {"name": "href", "id": ":wdc:1487146808365", "sessionId": "87bb4440-f357-11e6-9579-fb0af05f5756"}
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:64983/wd/hub/session/87bb4440-f357-11e6-9579-fb0af05f5756 {"sessionId": "87bb4440-f357-11e6-9579-fb0af05f5756"}
+2017-02-15 16:20:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:08 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/647332753
+2017-02-15 16:20:13 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65010/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:20:13 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:13 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65010/wd/hub/session/92fe6a30-f357-11e6-81d5-77dd78fc358b/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%89%E6%98%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "92fe6a30-f357-11e6-81d5-77dd78fc358b"}
+2017-02-15 16:20:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65010/wd/hub/session/92fe6a30-f357-11e6-81d5-77dd78fc358b/element {"using": "class name", "value": "query_name", "sessionId": "92fe6a30-f357-11e6-81d5-77dd78fc358b"}
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65010/wd/hub/session/92fe6a30-f357-11e6-81d5-77dd78fc358b/element/:wdc:1487146822850/attribute/href {"name": "href", "id": ":wdc:1487146822850", "sessionId": "92fe6a30-f357-11e6-81d5-77dd78fc358b"}
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65010/wd/hub/session/92fe6a30-f357-11e6-81d5-77dd78fc358b {"sessionId": "92fe6a30-f357-11e6-81d5-77dd78fc358b"}
+2017-02-15 16:20:22 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:22 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/694151085
+2017-02-15 16:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65074/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:20:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65074/wd/hub/session/9ba847a0-f357-11e6-8019-6d7edafdedd5/url {"url": "http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E7%A5%9E%E5%8A%9B%E6%B1%BD%E9%85%8D%E9%93%B8%E9%80%A0%E5%8E%82&checkFrom=searchBox", "sessionId": "9ba847a0-f357-11e6-8019-6d7edafdedd5"}
+2017-02-15 16:21:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65074/wd/hub/session/9ba847a0-f357-11e6-8019-6d7edafdedd5/element {"using": "class name", "value": "query_name", "sessionId": "9ba847a0-f357-11e6-8019-6d7edafdedd5"}
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65074/wd/hub/session/9ba847a0-f357-11e6-8019-6d7edafdedd5/element/:wdc:1487146869393/attribute/href {"name": "href", "id": ":wdc:1487146869393", "sessionId": "9ba847a0-f357-11e6-8019-6d7edafdedd5"}
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65074/wd/hub/session/9ba847a0-f357-11e6-8019-6d7edafdedd5 {"sessionId": "9ba847a0-f357-11e6-8019-6d7edafdedd5"}
+2017-02-15 16:21:09 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:09 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/591410998
+2017-02-15 16:21:14 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65123/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:21:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:14 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65123/wd/hub/session/b77548c0-f357-11e6-8322-afec1c1d33f4/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%90%89%E6%B6%A6%E8%BE%BE%E5%AE%89%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "b77548c0-f357-11e6-8322-afec1c1d33f4"}
+2017-02-15 16:21:24 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65123/wd/hub/session/b77548c0-f357-11e6-8322-afec1c1d33f4/element {"using": "class name", "value": "query_name", "sessionId": "b77548c0-f357-11e6-8322-afec1c1d33f4"}
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65123/wd/hub/session/b77548c0-f357-11e6-8322-afec1c1d33f4/element/:wdc:1487146888307/attribute/href {"name": "href", "id": ":wdc:1487146888307", "sessionId": "b77548c0-f357-11e6-8322-afec1c1d33f4"}
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65123/wd/hub/session/b77548c0-f357-11e6-8322-afec1c1d33f4 {"sessionId": "b77548c0-f357-11e6-8322-afec1c1d33f4"}
+2017-02-15 16:21:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:28 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/758543702
+2017-02-15 16:21:33 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65171/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:21:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:21:33 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65171/wd/hub/session/c2ab7660-f357-11e6-8741-f39234c5c390/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E8%81%9A%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "c2ab7660-f357-11e6-8741-f39234c5c390"}
+2017-02-15 16:21:56 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65171/wd/hub/session/c2ab7660-f357-11e6-8741-f39234c5c390/element {"using": "class name", "value": "query_name", "sessionId": "c2ab7660-f357-11e6-8741-f39234c5c390"}
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65171/wd/hub/session/c2ab7660-f357-11e6-8741-f39234c5c390/element/:wdc:1487146920280/attribute/href {"name": "href", "id": ":wdc:1487146920280", "sessionId": "c2ab7660-f357-11e6-8741-f39234c5c390"}
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65171/wd/hub/session/c2ab7660-f357-11e6-8741-f39234c5c390 {"sessionId": "c2ab7660-f357-11e6-8741-f39234c5c390"}
+2017-02-15 16:22:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:22:00 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/755528016
+2017-02-15 16:22:00 [scrapy] INFO: Crawled 24 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:22:05 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65221/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:22:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:22:05 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65221/wd/hub/session/d5c76e20-f357-11e6-a6c5-2be03ebd704a/url {"url": "http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "d5c76e20-f357-11e6-a6c5-2be03ebd704a"}
+2017-02-15 16:23:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65221/wd/hub/session/d5c76e20-f357-11e6-a6c5-2be03ebd704a/element {"using": "class name", "value": "query_name", "sessionId": "d5c76e20-f357-11e6-a6c5-2be03ebd704a"}
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65221/wd/hub/session/d5c76e20-f357-11e6-a6c5-2be03ebd704a/element/:wdc:1487146994699/attribute/href {"name": "href", "id": ":wdc:1487146994699", "sessionId": "d5c76e20-f357-11e6-a6c5-2be03ebd704a"}
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65221/wd/hub/session/d5c76e20-f357-11e6-a6c5-2be03ebd704a {"sessionId": "d5c76e20-f357-11e6-a6c5-2be03ebd704a"}
+2017-02-15 16:23:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:14 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/790998953
+2017-02-15 16:23:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65264/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:23:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65264/wd/hub/session/020e6bf0-f358-11e6-8128-e197afc850b8/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%9C%A8%E5%8F%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "020e6bf0-f358-11e6-8128-e197afc850b8"}
+2017-02-15 16:23:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65264/wd/hub/session/020e6bf0-f358-11e6-8128-e197afc850b8/element {"using": "class name", "value": "query_name", "sessionId": "020e6bf0-f358-11e6-8128-e197afc850b8"}
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65264/wd/hub/session/020e6bf0-f358-11e6-8128-e197afc850b8/element/:wdc:1487147010572/attribute/href {"name": "href", "id": ":wdc:1487147010572", "sessionId": "020e6bf0-f358-11e6-8128-e197afc850b8"}
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65264/wd/hub/session/020e6bf0-f358-11e6-8128-e197afc850b8 {"sessionId": "020e6bf0-f358-11e6-8128-e197afc850b8"}
+2017-02-15 16:23:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:30 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/357425367
+2017-02-15 16:23:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65295/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:23:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65295/wd/hub/session/0b84c120-f358-11e6-b24e-afdace9b500f/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%98%8C%E6%BA%90%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "0b84c120-f358-11e6-b24e-afdace9b500f"}
+2017-02-15 16:23:44 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65295/wd/hub/session/0b84c120-f358-11e6-b24e-afdace9b500f/element {"using": "class name", "value": "query_name", "sessionId": "0b84c120-f358-11e6-b24e-afdace9b500f"}
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65295/wd/hub/session/0b84c120-f358-11e6-b24e-afdace9b500f/element/:wdc:1487147028308/attribute/href {"name": "href", "id": ":wdc:1487147028308", "sessionId": "0b84c120-f358-11e6-b24e-afdace9b500f"}
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65295/wd/hub/session/0b84c120-f358-11e6-b24e-afdace9b500f {"sessionId": "0b84c120-f358-11e6-b24e-afdace9b500f"}
+2017-02-15 16:23:48 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:48 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/761455313
+2017-02-15 16:23:53 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65319/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:23:53 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:23:53 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65319/wd/hub/session/16190970-f358-11e6-9ff9-2d043a3172e1/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%9D%BF%E5%93%B2%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "16190970-f358-11e6-9ff9-2d043a3172e1"}
+2017-02-15 16:24:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65319/wd/hub/session/16190970-f358-11e6-9ff9-2d043a3172e1/element {"using": "class name", "value": "query_name", "sessionId": "16190970-f358-11e6-9ff9-2d043a3172e1"}
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65319/wd/hub/session/16190970-f358-11e6-9ff9-2d043a3172e1/element/:wdc:1487147052135/attribute/href {"name": "href", "id": ":wdc:1487147052135", "sessionId": "16190970-f358-11e6-9ff9-2d043a3172e1"}
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65319/wd/hub/session/16190970-f358-11e6-9ff9-2d043a3172e1 {"sessionId": "16190970-f358-11e6-9ff9-2d043a3172e1"}
+2017-02-15 16:24:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:12 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2378890715
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/376164553> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/376164553 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2320138471> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/2320138471 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/761680155> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/761680155 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/779272786> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/779272786 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/383938054> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/383938054 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/771351456> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/771351456 took longer than 180.0 seconds..
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/684485229> (failed 1 times): User timeout caused connection failure.
+2017-02-15 16:24:12 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/1516488477> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/1516488477 took longer than 180.0 seconds..
+2017-02-15 16:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65346/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65346/wd/hub/session/2454fd00-f358-11e6-aaa6-a5318384e93a/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E4%BA%A8%E5%AE%9C%E5%BE%B7%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "2454fd00-f358-11e6-aaa6-a5318384e93a"}
+2017-02-15 16:24:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65346/wd/hub/session/2454fd00-f358-11e6-aaa6-a5318384e93a/element {"using": "class name", "value": "query_name", "sessionId": "2454fd00-f358-11e6-aaa6-a5318384e93a"}
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65346/wd/hub/session/2454fd00-f358-11e6-aaa6-a5318384e93a/element/:wdc:1487147070251/attribute/href {"name": "href", "id": ":wdc:1487147070251", "sessionId": "2454fd00-f358-11e6-aaa6-a5318384e93a"}
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65346/wd/hub/session/2454fd00-f358-11e6-aaa6-a5318384e93a {"sessionId": "2454fd00-f358-11e6-aaa6-a5318384e93a"}
+2017-02-15 16:24:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:30 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2339011605
+2017-02-15 16:24:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65431/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:24:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:35 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65431/wd/hub/session/2f192ef0-f358-11e6-8640-5964f47a4c5a/url {"url": "http://www.tianyancha.com/search?key=%E5%8D%97%E6%96%B9%E4%BD%9B%E5%90%89%E4%BA%9A%E6%B1%BD%E8%BD%A6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%87%8D%E5%BA%86%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "2f192ef0-f358-11e6-8640-5964f47a4c5a"}
+2017-02-15 16:24:39 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65431/wd/hub/session/2f192ef0-f358-11e6-8640-5964f47a4c5a/element {"using": "class name", "value": "query_name", "sessionId": "2f192ef0-f358-11e6-8640-5964f47a4c5a"}
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65431/wd/hub/session/2f192ef0-f358-11e6-8640-5964f47a4c5a/element/:wdc:1487147083721/attribute/href {"name": "href", "id": ":wdc:1487147083721", "sessionId": "2f192ef0-f358-11e6-8640-5964f47a4c5a"}
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65431/wd/hub/session/2f192ef0-f358-11e6-8640-5964f47a4c5a {"sessionId": "2f192ef0-f358-11e6-8640-5964f47a4c5a"}
+2017-02-15 16:24:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:43 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2338091653
+2017-02-15 16:24:43 [scrapy] INFO: Crawled 24 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:24:44 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/647332753> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A4%8F%E5%A4%A9%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:24:44 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/591410998> (referer: http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E7%A5%9E%E5%8A%9B%E6%B1%BD%E9%85%8D%E9%93%B8%E9%80%A0%E5%8E%82&checkFrom=searchBox)
+2017-02-15 16:24:49 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65509/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:24:49 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:24:49 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:65509/wd/hub/session/37858e30-f358-11e6-98d7-970895320b76/url {"url": "http://www.tianyancha.com/company/647332753", "sessionId": "37858e30-f358-11e6-98d7-970895320b76"}
+2017-02-15 16:25:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:25:00 [tyc] INFO: url http://www.tianyancha.com/company/647332753
+2017-02-15 16:25:07 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:65509/wd/hub/session/37858e30-f358-11e6-98d7-970895320b76/source {"sessionId": "37858e30-f358-11e6-98d7-970895320b76"}
+2017-02-15 16:25:07 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:25:08 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:65509/wd/hub/session/37858e30-f358-11e6-98d7-970895320b76 {"sessionId": "37858e30-f358-11e6-98d7-970895320b76"}
+2017-02-15 16:25:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:25:08 [tyc] INFO: 企业名 昆明夏天汽车配件销售有限公司
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%BE%B7%E9%A1%BA%E8%BE%89%E4%BD%B3%E6%B1%BD%E8%BD%A6%E9%83%A8%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/694151085> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%89%E6%98%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%86%A0%E8%83%BD%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/755528016> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%B8%9C%E8%81%9A%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BA%8C%E7%8E%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2338091653> (referer: http://www.tianyancha.com/search?key=%E5%8D%97%E6%96%B9%E4%BD%9B%E5%90%89%E4%BA%9A%E6%B1%BD%E8%BD%A6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%87%8D%E5%BA%86%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/758543702> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%90%89%E6%B6%A6%E8%BE%BE%E5%AE%89%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:25:08 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2339011605> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E4%BA%A8%E5%AE%9C%E5%BE%B7%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:25:13 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49153/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:25:13 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:25:13 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49153/wd/hub/session/459f05a0-f358-11e6-8cc3-f1acb5aedd9e/url {"url": "http://www.tianyancha.com/company/591410998", "sessionId": "459f05a0-f358-11e6-8cc3-f1acb5aedd9e"}
+2017-02-15 16:26:32 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:32 [tyc] INFO: url http://www.tianyancha.com/company/591410998
+2017-02-15 16:26:39 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49153/wd/hub/session/459f05a0-f358-11e6-8cc3-f1acb5aedd9e/source {"sessionId": "459f05a0-f358-11e6-8cc3-f1acb5aedd9e"}
+2017-02-15 16:26:39 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:39 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49153/wd/hub/session/459f05a0-f358-11e6-8cc3-f1acb5aedd9e {"sessionId": "459f05a0-f358-11e6-8cc3-f1acb5aedd9e"}
+2017-02-15 16:26:39 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:39 [tyc] INFO: 企业名 晋宁神力汽配铸造厂
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2378890715> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%9D%BF%E5%93%B2%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/761455313> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%98%8C%E6%BA%90%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/357425367> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%9C%A8%E5%8F%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/790998953> (referer: http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/810602131> (referer: http://www.tianyancha.com/search?key=%E4%BA%91%E5%8D%97%E5%A4%A9%E8%81%9A%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/1533773118> (referer: http://www.tianyancha.com/search?key=%E6%99%8B%E5%AE%81%E5%B1%B1%E6%BA%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%93%B8%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/750891650> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%97%8B%E8%BF%90%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:26:39 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%A1%E5%98%89%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:26:39 [scrapy] INFO: Crawled 42 pages (at 18 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:26:44 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49315/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:26:44 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:44 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49315/wd/hub/session/7c4b9aa0-f358-11e6-8876-49aea00e603f/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%BE%B7%E9%A1%BA%E8%BE%89%E4%BD%B3%E6%B1%BD%E8%BD%A6%E9%83%A8%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "7c4b9aa0-f358-11e6-8876-49aea00e603f"}
+2017-02-15 16:26:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49315/wd/hub/session/7c4b9aa0-f358-11e6-8876-49aea00e603f/element {"using": "class name", "value": "query_name", "sessionId": "7c4b9aa0-f358-11e6-8876-49aea00e603f"}
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49315/wd/hub/session/7c4b9aa0-f358-11e6-8876-49aea00e603f/element/:wdc:1487147215473/attribute/href {"name": "href", "id": ":wdc:1487147215473", "sessionId": "7c4b9aa0-f358-11e6-8876-49aea00e603f"}
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49315/wd/hub/session/7c4b9aa0-f358-11e6-8876-49aea00e603f {"sessionId": "7c4b9aa0-f358-11e6-8876-49aea00e603f"}
+2017-02-15 16:26:55 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:26:55 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2336671379
+2017-02-15 16:27:00 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49340/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:27:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:00 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49340/wd/hub/session/85acba20-f358-11e6-a384-71556f6c4629/url {"url": "http://www.tianyancha.com/company/694151085", "sessionId": "85acba20-f358-11e6-a384-71556f6c4629"}
+2017-02-15 16:27:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:04 [tyc] INFO: url http://www.tianyancha.com/company/694151085
+2017-02-15 16:27:11 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49340/wd/hub/session/85acba20-f358-11e6-a384-71556f6c4629/source {"sessionId": "85acba20-f358-11e6-a384-71556f6c4629"}
+2017-02-15 16:27:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:11 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49340/wd/hub/session/85acba20-f358-11e6-a384-71556f6c4629 {"sessionId": "85acba20-f358-11e6-a384-71556f6c4629"}
+2017-02-15 16:27:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:11 [tyc] INFO: 企业名 昆明三昌汽车配件制造有限公司
+2017-02-15 16:27:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49368/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:27:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49368/wd/hub/session/8f671d30-f358-11e6-aa37-5356d10f72e7/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%86%A0%E8%83%BD%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "8f671d30-f358-11e6-aa37-5356d10f72e7"}
+2017-02-15 16:27:21 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49368/wd/hub/session/8f671d30-f358-11e6-aa37-5356d10f72e7/element {"using": "class name", "value": "query_name", "sessionId": "8f671d30-f358-11e6-aa37-5356d10f72e7"}
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49368/wd/hub/session/8f671d30-f358-11e6-aa37-5356d10f72e7/element/:wdc:1487147245461/attribute/href {"name": "href", "id": ":wdc:1487147245461", "sessionId": "8f671d30-f358-11e6-aa37-5356d10f72e7"}
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49368/wd/hub/session/8f671d30-f358-11e6-aa37-5356d10f72e7 {"sessionId": "8f671d30-f358-11e6-aa37-5356d10f72e7"}
+2017-02-15 16:27:25 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:25 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2339715722
+2017-02-15 16:27:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49392/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:27:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49392/wd/hub/session/978646d0-f358-11e6-8765-8b6fd5ebb9e1/url {"url": "http://www.tianyancha.com/company/755528016", "sessionId": "978646d0-f358-11e6-8765-8b6fd5ebb9e1"}
+2017-02-15 16:27:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:51 [tyc] INFO: url http://www.tianyancha.com/company/755528016
+2017-02-15 16:27:58 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49392/wd/hub/session/978646d0-f358-11e6-8765-8b6fd5ebb9e1/source {"sessionId": "978646d0-f358-11e6-8765-8b6fd5ebb9e1"}
+2017-02-15 16:27:58 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:58 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49392/wd/hub/session/978646d0-f358-11e6-8765-8b6fd5ebb9e1 {"sessionId": "978646d0-f358-11e6-8765-8b6fd5ebb9e1"}
+2017-02-15 16:27:58 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:27:58 [tyc] INFO: 企业名 昆明国泰汽车配件销售有限公司东聚分公司
+2017-02-15 16:28:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49420/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:28:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49420/wd/hub/session/ab2689c0-f358-11e6-ab50-bfca1f6e5b20/url {"url": "http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E4%BA%8C%E7%8E%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "ab2689c0-f358-11e6-ab50-bfca1f6e5b20"}
+2017-02-15 16:28:06 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49420/wd/hub/session/ab2689c0-f358-11e6-ab50-bfca1f6e5b20/element {"using": "class name", "value": "query_name", "sessionId": "ab2689c0-f358-11e6-ab50-bfca1f6e5b20"}
+2017-02-15 16:28:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:11 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49420/wd/hub/session/ab2689c0-f358-11e6-ab50-bfca1f6e5b20/element/:wdc:1487147291133/attribute/href {"name": "href", "id": ":wdc:1487147291133", "sessionId": "ab2689c0-f358-11e6-ab50-bfca1f6e5b20"}
+2017-02-15 16:28:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:11 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49420/wd/hub/session/ab2689c0-f358-11e6-ab50-bfca1f6e5b20 {"sessionId": "ab2689c0-f358-11e6-ab50-bfca1f6e5b20"}
+2017-02-15 16:28:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:11 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/759686618
+2017-02-15 16:28:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49445/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:28:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:16 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49445/wd/hub/session/b2bfe190-f358-11e6-a093-07faa4c0e5b7/url {"url": "http://www.tianyancha.com/company/2338091653", "sessionId": "b2bfe190-f358-11e6-a093-07faa4c0e5b7"}
+2017-02-15 16:28:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:26 [tyc] INFO: url http://www.tianyancha.com/company/2338091653
+2017-02-15 16:28:33 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49445/wd/hub/session/b2bfe190-f358-11e6-a093-07faa4c0e5b7/source {"sessionId": "b2bfe190-f358-11e6-a093-07faa4c0e5b7"}
+2017-02-15 16:28:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:33 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49445/wd/hub/session/b2bfe190-f358-11e6-a093-07faa4c0e5b7 {"sessionId": "b2bfe190-f358-11e6-a093-07faa4c0e5b7"}
+2017-02-15 16:28:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:33 [tyc] INFO: 企业名 南方佛吉亚汽车部件有限公司重庆分公司
+2017-02-15 16:28:39 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49472/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:28:39 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:39 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49472/wd/hub/session/c04b49d0-f358-11e6-b31d-73f333e2710c/url {"url": "http://www.tianyancha.com/company/758543702", "sessionId": "c04b49d0-f358-11e6-b31d-73f333e2710c"}
+2017-02-15 16:28:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:45 [tyc] INFO: url http://www.tianyancha.com/company/758543702
+2017-02-15 16:28:52 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49472/wd/hub/session/c04b49d0-f358-11e6-b31d-73f333e2710c/source {"sessionId": "c04b49d0-f358-11e6-b31d-73f333e2710c"}
+2017-02-15 16:28:52 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:52 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49472/wd/hub/session/c04b49d0-f358-11e6-b31d-73f333e2710c {"sessionId": "c04b49d0-f358-11e6-b31d-73f333e2710c"}
+2017-02-15 16:28:52 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:52 [tyc] INFO: 企业名 昆明吉润达安汽车零部件制造有限公司
+2017-02-15 16:28:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49498/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:28:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:28:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49498/wd/hub/session/cb553750-f358-11e6-b6e0-2fb65ea7f726/url {"url": "http://www.tianyancha.com/company/2339011605", "sessionId": "cb553750-f358-11e6-b6e0-2fb65ea7f726"}
+2017-02-15 16:29:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:14 [tyc] INFO: url http://www.tianyancha.com/company/2339011605
+2017-02-15 16:29:21 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49498/wd/hub/session/cb553750-f358-11e6-b6e0-2fb65ea7f726/source {"sessionId": "cb553750-f358-11e6-b6e0-2fb65ea7f726"}
+2017-02-15 16:29:21 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:21 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49498/wd/hub/session/cb553750-f358-11e6-b6e0-2fb65ea7f726 {"sessionId": "cb553750-f358-11e6-b6e0-2fb65ea7f726"}
+2017-02-15 16:29:21 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:21 [tyc] INFO: 企业名 重庆亨宜德汽车零部件有限责任公司
+2017-02-15 16:29:21 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/684485229> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E4%B8%96%E7%BA%AA%E4%BA%92%E7%94%9F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:29:21 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/1516488477> (referer: http://www.tianyancha.com/search?key=%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%B8%82%E9%94%A6%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:29:21 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/771351456> (referer: http://www.tianyancha.com/search?key=%E6%9B%B2%E9%9D%96%E5%B8%82%E9%BA%92%E9%BA%9F%E5%8C%BA%E9%95%95%E9%93%B8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%88%B6%E9%80%A0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%93%81%E4%BB%B6%E5%8A%A0%E5%B7%A5%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:29:21 [scrapy] INFO: Crawled 45 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:29:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49534/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:29:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:26 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49534/wd/hub/session/dcd929f0-f358-11e6-8aa1-67f11d40794d/url {"url": "http://www.tianyancha.com/company/2378890715", "sessionId": "dcd929f0-f358-11e6-8aa1-67f11d40794d"}
+2017-02-15 16:29:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:33 [tyc] INFO: url http://www.tianyancha.com/company/2378890715
+2017-02-15 16:29:40 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49534/wd/hub/session/dcd929f0-f358-11e6-8aa1-67f11d40794d/source {"sessionId": "dcd929f0-f358-11e6-8aa1-67f11d40794d"}
+2017-02-15 16:29:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:40 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49534/wd/hub/session/dcd929f0-f358-11e6-8aa1-67f11d40794d {"sessionId": "dcd929f0-f358-11e6-8aa1-67f11d40794d"}
+2017-02-15 16:29:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:40 [tyc] INFO: 企业名 重庆睿哲汽车零部件有限公司
+2017-02-15 16:29:45 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49565/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:29:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:45 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49565/wd/hub/session/e808eef0-f358-11e6-be15-9f0e51750170/url {"url": "http://www.tianyancha.com/company/761455313", "sessionId": "e808eef0-f358-11e6-be15-9f0e51750170"}
+2017-02-15 16:29:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:29:57 [tyc] INFO: url http://www.tianyancha.com/company/761455313
+2017-02-15 16:30:04 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49565/wd/hub/session/e808eef0-f358-11e6-be15-9f0e51750170/source {"sessionId": "e808eef0-f358-11e6-be15-9f0e51750170"}
+2017-02-15 16:30:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:04 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49565/wd/hub/session/e808eef0-f358-11e6-be15-9f0e51750170 {"sessionId": "e808eef0-f358-11e6-be15-9f0e51750170"}
+2017-02-15 16:30:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:04 [tyc] INFO: 企业名 昆明国泰汽车配件销售有限公司昌源分公司
+2017-02-15 16:30:09 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49596/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:30:09 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:09 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49596/wd/hub/session/f6145ca0-f358-11e6-9dbd-77eee43edaab/url {"url": "http://www.tianyancha.com/company/357425367", "sessionId": "f6145ca0-f358-11e6-9dbd-77eee43edaab"}
+2017-02-15 16:30:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:12 [tyc] INFO: url http://www.tianyancha.com/company/357425367
+2017-02-15 16:30:19 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49596/wd/hub/session/f6145ca0-f358-11e6-9dbd-77eee43edaab/source {"sessionId": "f6145ca0-f358-11e6-9dbd-77eee43edaab"}
+2017-02-15 16:30:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:19 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49596/wd/hub/session/f6145ca0-f358-11e6-9dbd-77eee43edaab {"sessionId": "f6145ca0-f358-11e6-9dbd-77eee43edaab"}
+2017-02-15 16:30:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:19 [tyc] INFO: 这个企业没有对外投资！
+2017-02-15 16:30:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49645/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:30:24 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49645/wd/hub/session/ff4e6c20-f358-11e6-a45d-dfbfa1a363c0/url {"url": "http://www.tianyancha.com/company/790998953", "sessionId": "ff4e6c20-f358-11e6-a45d-dfbfa1a363c0"}
+2017-02-15 16:30:36 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:36 [tyc] INFO: url http://www.tianyancha.com/company/790998953
+2017-02-15 16:30:43 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49645/wd/hub/session/ff4e6c20-f358-11e6-a45d-dfbfa1a363c0/source {"sessionId": "ff4e6c20-f358-11e6-a45d-dfbfa1a363c0"}
+2017-02-15 16:30:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:43 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49645/wd/hub/session/ff4e6c20-f358-11e6-a45d-dfbfa1a363c0 {"sessionId": "ff4e6c20-f358-11e6-a45d-dfbfa1a363c0"}
+2017-02-15 16:30:43 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:43 [tyc] INFO: 企业名 曲靖市麒麟区镕铸汽车配件制造有限公司
+2017-02-15 16:30:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49716/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:30:48 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:48 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49716/wd/hub/session/0d58ef70-f359-11e6-b597-f590094ba320/url {"url": "http://www.tianyancha.com/company/810602131", "sessionId": "0d58ef70-f359-11e6-b597-f590094ba320"}
+2017-02-15 16:30:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:51 [tyc] INFO: url http://www.tianyancha.com/company/810602131
+2017-02-15 16:30:58 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49716/wd/hub/session/0d58ef70-f359-11e6-b597-f590094ba320/source {"sessionId": "0d58ef70-f359-11e6-b597-f590094ba320"}
+2017-02-15 16:30:58 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:58 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49716/wd/hub/session/0d58ef70-f359-11e6-b597-f590094ba320 {"sessionId": "0d58ef70-f359-11e6-b597-f590094ba320"}
+2017-02-15 16:30:58 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:30:58 [tyc] INFO: 企业名 云南天聚汽车零部件销售有限公司
+2017-02-15 16:31:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49745/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:31:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49745/wd/hub/session/16611980-f359-11e6-882e-d15c725fa3ad/url {"url": "http://www.tianyancha.com/company/1533773118", "sessionId": "16611980-f359-11e6-882e-d15c725fa3ad"}
+2017-02-15 16:31:07 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:07 [tyc] INFO: url http://www.tianyancha.com/company/1533773118
+2017-02-15 16:31:14 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49745/wd/hub/session/16611980-f359-11e6-882e-d15c725fa3ad/source {"sessionId": "16611980-f359-11e6-882e-d15c725fa3ad"}
+2017-02-15 16:31:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:14 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49745/wd/hub/session/16611980-f359-11e6-882e-d15c725fa3ad {"sessionId": "16611980-f359-11e6-882e-d15c725fa3ad"}
+2017-02-15 16:31:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:14 [tyc] INFO: 这个企业没有对外投资！
+2017-02-15 16:31:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49762/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:31:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49762/wd/hub/session/1fba49c0-f359-11e6-9d23-7b6bed51bf83/url {"url": "http://www.tianyancha.com/company/750891650", "sessionId": "1fba49c0-f359-11e6-9d23-7b6bed51bf83"}
+2017-02-15 16:31:32 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:32 [tyc] INFO: url http://www.tianyancha.com/company/750891650
+2017-02-15 16:31:39 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49762/wd/hub/session/1fba49c0-f359-11e6-9d23-7b6bed51bf83/source {"sessionId": "1fba49c0-f359-11e6-9d23-7b6bed51bf83"}
+2017-02-15 16:31:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:40 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49762/wd/hub/session/1fba49c0-f359-11e6-9d23-7b6bed51bf83 {"sessionId": "1fba49c0-f359-11e6-9d23-7b6bed51bf83"}
+2017-02-15 16:31:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:40 [tyc] INFO: 企业名 昆明旋运汽车配件销售有限公司
+2017-02-15 16:31:45 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49796/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:31:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:31:45 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49796/wd/hub/session/2f426c60-f359-11e6-8d94-b99ce2692e15/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%A1%E5%98%89%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "2f426c60-f359-11e6-8d94-b99ce2692e15"}
+2017-02-15 16:32:00 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:04 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49796/wd/hub/session/2f426c60-f359-11e6-8d94-b99ce2692e15/element {"using": "class name", "value": "query_name", "sessionId": "2f426c60-f359-11e6-8d94-b99ce2692e15"}
+2017-02-15 16:32:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:04 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49796/wd/hub/session/2f426c60-f359-11e6-8d94-b99ce2692e15/element/:wdc:1487147524957/attribute/href {"name": "href", "id": ":wdc:1487147524957", "sessionId": "2f426c60-f359-11e6-8d94-b99ce2692e15"}
+2017-02-15 16:32:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:05 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49796/wd/hub/session/2f426c60-f359-11e6-8d94-b99ce2692e15 {"sessionId": "2f426c60-f359-11e6-8d94-b99ce2692e15"}
+2017-02-15 16:32:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:05 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2339489796
+2017-02-15 16:32:05 [scrapy] INFO: Crawled 45 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:32:05 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/383938054> (failed 2 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/383938054 took longer than 180.0 seconds..
+2017-02-15 16:32:05 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/779272786> (failed 2 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/779272786 took longer than 180.0 seconds..
+2017-02-15 16:32:05 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/761680155> (failed 2 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/761680155 took longer than 180.0 seconds..
+2017-02-15 16:32:05 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2320138471> (failed 2 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/2320138471 took longer than 180.0 seconds..
+2017-02-15 16:32:05 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/376164553> (failed 2 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/376164553 took longer than 180.0 seconds..
+2017-02-15 16:32:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49832/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:32:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:10 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49832/wd/hub/session/3e43d2d0-f359-11e6-9f19-ab97b8d94a64/url {"url": "http://www.tianyancha.com/company/684485229", "sessionId": "3e43d2d0-f359-11e6-9f19-ab97b8d94a64"}
+2017-02-15 16:32:16 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:16 [tyc] INFO: url http://www.tianyancha.com/company/684485229
+2017-02-15 16:32:23 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49832/wd/hub/session/3e43d2d0-f359-11e6-9f19-ab97b8d94a64/source {"sessionId": "3e43d2d0-f359-11e6-9f19-ab97b8d94a64"}
+2017-02-15 16:32:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:23 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49832/wd/hub/session/3e43d2d0-f359-11e6-9f19-ab97b8d94a64 {"sessionId": "3e43d2d0-f359-11e6-9f19-ab97b8d94a64"}
+2017-02-15 16:32:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:23 [tyc] INFO: 企业名 昆明世纪互生汽车配件销售有限公司
+2017-02-15 16:32:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49869/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:32:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:28 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49869/wd/hub/session/490b3910-f359-11e6-bebd-93ba8c67aee3/url {"url": "http://www.tianyancha.com/company/1516488477", "sessionId": "490b3910-f359-11e6-bebd-93ba8c67aee3"}
+2017-02-15 16:32:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:45 [tyc] INFO: url http://www.tianyancha.com/company/1516488477
+2017-02-15 16:32:52 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49869/wd/hub/session/490b3910-f359-11e6-bebd-93ba8c67aee3/source {"sessionId": "490b3910-f359-11e6-bebd-93ba8c67aee3"}
+2017-02-15 16:32:52 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:52 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49869/wd/hub/session/490b3910-f359-11e6-bebd-93ba8c67aee3 {"sessionId": "490b3910-f359-11e6-bebd-93ba8c67aee3"}
+2017-02-15 16:32:52 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:52 [tyc] INFO: 企业名 香格里拉市锦丰汽车配件销售有限公司
+2017-02-15 16:32:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49905/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:32:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:32:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49905/wd/hub/session/5a54bac0-f359-11e6-9dc7-71c20d95935f/url {"url": "http://www.tianyancha.com/company/771351456", "sessionId": "5a54bac0-f359-11e6-9dc7-71c20d95935f"}
+2017-02-15 16:33:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:33:10 [tyc] INFO: url http://www.tianyancha.com/company/771351456
+2017-02-15 16:33:17 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49905/wd/hub/session/5a54bac0-f359-11e6-9dc7-71c20d95935f/source {"sessionId": "5a54bac0-f359-11e6-9dc7-71c20d95935f"}
+2017-02-15 16:33:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:33:17 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49905/wd/hub/session/5a54bac0-f359-11e6-9dc7-71c20d95935f {"sessionId": "5a54bac0-f359-11e6-9dc7-71c20d95935f"}
+2017-02-15 16:33:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:33:17 [tyc] INFO: 企业名 曲靖市麒麟区镕铸汽车配件制造有限公司铁件加工分公司
+2017-02-15 16:33:17 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/759686618> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/759686618 took longer than 180.0 seconds..
+2017-02-15 16:33:17 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2339715722> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/2339715722 took longer than 180.0 seconds..
+2017-02-15 16:33:17 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2336671379> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/company/2336671379 took longer than 180.0 seconds..
+2017-02-15 16:33:17 [scrapy] INFO: Crawled 45 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:33:18 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E7%92%A7%E5%B1%B1%E5%8C%BA%E5%BE%B7%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%8E%82&checkFrom=searchBox> (referer: None)
+2017-02-15 16:33:18 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%91%AB%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:33:18 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/376164553> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%9B%BD%E6%B3%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E6%B0%91%E8%88%AA%E8%B7%AF%E5%88%86%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:33:18 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/761680155> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E6%99%A8%E9%85%8D%E9%80%9A%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:33:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49950/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:33:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:33:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49950/wd/hub/session/69aeef90-f359-11e6-9577-15633f9e9fe7/url {"url": "http://www.tianyancha.com/search?key=%E7%92%A7%E5%B1%B1%E5%8C%BA%E5%BE%B7%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%8E%82&checkFrom=searchBox", "sessionId": "69aeef90-f359-11e6-9577-15633f9e9fe7"}
+2017-02-15 16:34:37 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49950/wd/hub/session/69aeef90-f359-11e6-9577-15633f9e9fe7/element {"using": "class name", "value": "query_name", "sessionId": "69aeef90-f359-11e6-9577-15633f9e9fe7"}
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49950/wd/hub/session/69aeef90-f359-11e6-9577-15633f9e9fe7/element/:wdc:1487147681288/attribute/href {"name": "href", "id": ":wdc:1487147681288", "sessionId": "69aeef90-f359-11e6-9577-15633f9e9fe7"}
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49950/wd/hub/session/69aeef90-f359-11e6-9577-15633f9e9fe7 {"sessionId": "69aeef90-f359-11e6-9577-15633f9e9fe7"}
+2017-02-15 16:34:41 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:41 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/1227257924
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/779272786> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E9%80%94%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2320138471> (referer: http://www.tianyancha.com/search?key=%E6%98%AD%E9%80%9A%E5%B8%82%E5%A4%A9%E7%A6%8F%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2339489796> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E6%80%A1%E5%98%89%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%93%B6%E8%81%AA%E6%8A%95%E5%85%B4%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%B0%B4%E5%9C%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E5%90%8C%E8%B4%A8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/383938054> (referer: http://www.tianyancha.com/search?key=%E6%98%86%E6%98%8E%E5%A5%A5%E5%87%AF%E8%A1%8C%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:34:41 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%A0%AA%E9%BE%99%E4%B8%80%E5%B1%B1%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:34:41 [scrapy] INFO: Crawled 57 pages (at 12 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:34:46 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49994/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:34:46 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:46 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49994/wd/hub/session/9b57f2d0-f359-11e6-bebe-b719cebbf881/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%91%AB%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "9b57f2d0-f359-11e6-bebe-b719cebbf881"}
+2017-02-15 16:34:55 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:49994/wd/hub/session/9b57f2d0-f359-11e6-bebe-b719cebbf881/element {"using": "class name", "value": "query_name", "sessionId": "9b57f2d0-f359-11e6-bebe-b719cebbf881"}
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:49994/wd/hub/session/9b57f2d0-f359-11e6-bebe-b719cebbf881/element/:wdc:1487147699481/attribute/href {"name": "href", "id": ":wdc:1487147699481", "sessionId": "9b57f2d0-f359-11e6-bebe-b719cebbf881"}
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:49994/wd/hub/session/9b57f2d0-f359-11e6-bebe-b719cebbf881 {"sessionId": "9b57f2d0-f359-11e6-bebe-b719cebbf881"}
+2017-02-15 16:34:59 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:34:59 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2341027480
+2017-02-15 16:35:04 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50089/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:35:04 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:04 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50089/wd/hub/session/a6230290-f359-11e6-9cce-5dc7add479fc/url {"url": "http://www.tianyancha.com/company/376164553", "sessionId": "a6230290-f359-11e6-9cce-5dc7add479fc"}
+2017-02-15 16:35:28 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:28 [tyc] INFO: url http://www.tianyancha.com/company/376164553
+2017-02-15 16:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50089/wd/hub/session/a6230290-f359-11e6-9cce-5dc7add479fc/source {"sessionId": "a6230290-f359-11e6-9cce-5dc7add479fc"}
+2017-02-15 16:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50089/wd/hub/session/a6230290-f359-11e6-9cce-5dc7add479fc {"sessionId": "a6230290-f359-11e6-9cce-5dc7add479fc"}
+2017-02-15 16:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:35 [tyc] INFO: 企业名 昆明国泰汽车配件销售有限公司民航路分公司
+2017-02-15 16:35:40 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50124/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:35:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:40 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50124/wd/hub/session/bb73dbb0-f359-11e6-9fd0-65582903c4ee/url {"url": "http://www.tianyancha.com/company/761680155", "sessionId": "bb73dbb0-f359-11e6-9fd0-65582903c4ee"}
+2017-02-15 16:35:50 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:50 [tyc] INFO: url http://www.tianyancha.com/company/761680155
+2017-02-15 16:35:57 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50124/wd/hub/session/bb73dbb0-f359-11e6-9fd0-65582903c4ee/source {"sessionId": "bb73dbb0-f359-11e6-9fd0-65582903c4ee"}
+2017-02-15 16:35:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:57 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50124/wd/hub/session/bb73dbb0-f359-11e6-9fd0-65582903c4ee {"sessionId": "bb73dbb0-f359-11e6-9fd0-65582903c4ee"}
+2017-02-15 16:35:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:35:57 [tyc] INFO: 企业名 昆明晨配通汽车配件销售有限公司
+2017-02-15 16:35:57 [scrapy] INFO: Crawled 57 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:36:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50179/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:36:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50179/wd/hub/session/c8e1f7f0-f359-11e6-8e41-d31432093c64/url {"url": "http://www.tianyancha.com/company/779272786", "sessionId": "c8e1f7f0-f359-11e6-8e41-d31432093c64"}
+2017-02-15 16:36:11 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:11 [tyc] INFO: url http://www.tianyancha.com/company/779272786
+2017-02-15 16:36:18 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50179/wd/hub/session/c8e1f7f0-f359-11e6-8e41-d31432093c64/source {"sessionId": "c8e1f7f0-f359-11e6-8e41-d31432093c64"}
+2017-02-15 16:36:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:18 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50179/wd/hub/session/c8e1f7f0-f359-11e6-8e41-d31432093c64 {"sessionId": "c8e1f7f0-f359-11e6-8e41-d31432093c64"}
+2017-02-15 16:36:18 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:18 [tyc] INFO: 企业名 昆明途程汽车配件销售有限公司
+2017-02-15 16:36:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50211/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:36:23 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:23 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50211/wd/hub/session/d54fe240-f359-11e6-85b1-017cb13a46cf/url {"url": "http://www.tianyancha.com/company/2320138471", "sessionId": "d54fe240-f359-11e6-85b1-017cb13a46cf"}
+2017-02-15 16:36:40 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:40 [tyc] INFO: url http://www.tianyancha.com/company/2320138471
+2017-02-15 16:36:47 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50211/wd/hub/session/d54fe240-f359-11e6-85b1-017cb13a46cf/source {"sessionId": "d54fe240-f359-11e6-85b1-017cb13a46cf"}
+2017-02-15 16:36:47 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:47 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50211/wd/hub/session/d54fe240-f359-11e6-85b1-017cb13a46cf {"sessionId": "d54fe240-f359-11e6-85b1-017cb13a46cf"}
+2017-02-15 16:36:47 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:48 [tyc] INFO: 企业名 昭通市天福汽车配件销售有限公司
+2017-02-15 16:36:53 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50286/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:36:53 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:36:53 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50286/wd/hub/session/e6c6b580-f359-11e6-b6b5-e16c2d98c2f6/url {"url": "http://www.tianyancha.com/company/2339489796", "sessionId": "e6c6b580-f359-11e6-b6b5-e16c2d98c2f6"}
+2017-02-15 16:37:05 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:05 [tyc] INFO: url http://www.tianyancha.com/company/2339489796
+2017-02-15 16:37:12 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50286/wd/hub/session/e6c6b580-f359-11e6-b6b5-e16c2d98c2f6/source {"sessionId": "e6c6b580-f359-11e6-b6b5-e16c2d98c2f6"}
+2017-02-15 16:37:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:12 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50286/wd/hub/session/e6c6b580-f359-11e6-b6b5-e16c2d98c2f6 {"sessionId": "e6c6b580-f359-11e6-b6b5-e16c2d98c2f6"}
+2017-02-15 16:37:12 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:12 [tyc] INFO: 企业名 重庆市怡嘉汽车配件有限公司
+2017-02-15 16:37:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50316/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:37:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50316/wd/hub/session/f5819d10-f359-11e6-91ae-1d5b50391bc1/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%93%B6%E8%81%AA%E6%8A%95%E5%85%B4%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "f5819d10-f359-11e6-91ae-1d5b50391bc1"}
+2017-02-15 16:37:26 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:30 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50316/wd/hub/session/f5819d10-f359-11e6-91ae-1d5b50391bc1/element {"using": "class name", "value": "query_name", "sessionId": "f5819d10-f359-11e6-91ae-1d5b50391bc1"}
+2017-02-15 16:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50316/wd/hub/session/f5819d10-f359-11e6-91ae-1d5b50391bc1/element/:wdc:1487147851029/attribute/href {"name": "href", "id": ":wdc:1487147851029", "sessionId": "f5819d10-f359-11e6-91ae-1d5b50391bc1"}
+2017-02-15 16:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50316/wd/hub/session/f5819d10-f359-11e6-91ae-1d5b50391bc1 {"sessionId": "f5819d10-f359-11e6-91ae-1d5b50391bc1"}
+2017-02-15 16:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:31 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2334481766
+2017-02-15 16:37:36 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50339/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:37:36 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:37:36 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50339/wd/hub/session/0077db80-f35a-11e6-98fe-c1428397e2ea/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%B0%B4%E5%9C%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "0077db80-f35a-11e6-98fe-c1428397e2ea"}
+2017-02-15 16:37:59 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50339/wd/hub/session/0077db80-f35a-11e6-98fe-c1428397e2ea/element {"using": "class name", "value": "query_name", "sessionId": "0077db80-f35a-11e6-98fe-c1428397e2ea"}
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50339/wd/hub/session/0077db80-f35a-11e6-98fe-c1428397e2ea/element/:wdc:1487147883251/attribute/href {"name": "href", "id": ":wdc:1487147883251", "sessionId": "0077db80-f35a-11e6-98fe-c1428397e2ea"}
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50339/wd/hub/session/0077db80-f35a-11e6-98fe-c1428397e2ea {"sessionId": "0077db80-f35a-11e6-98fe-c1428397e2ea"}
+2017-02-15 16:38:03 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:03 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2336147647
+2017-02-15 16:38:08 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50367/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:38:08 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:08 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50367/wd/hub/session/13ac1630-f35a-11e6-8782-09285527ae23/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E5%90%8C%E8%B4%A8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "13ac1630-f35a-11e6-8782-09285527ae23"}
+2017-02-15 16:38:15 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50367/wd/hub/session/13ac1630-f35a-11e6-8782-09285527ae23/element {"using": "class name", "value": "query_name", "sessionId": "13ac1630-f35a-11e6-8782-09285527ae23"}
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50367/wd/hub/session/13ac1630-f35a-11e6-8782-09285527ae23/element/:wdc:1487147899120/attribute/href {"name": "href", "id": ":wdc:1487147899120", "sessionId": "13ac1630-f35a-11e6-8782-09285527ae23"}
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50367/wd/hub/session/13ac1630-f35a-11e6-8782-09285527ae23 {"sessionId": "13ac1630-f35a-11e6-8782-09285527ae23"}
+2017-02-15 16:38:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:19 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2339725043
+2017-02-15 16:38:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50392/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:38:24 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:24 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50392/wd/hub/session/1d246730-f35a-11e6-b90a-1b3e4ebbf514/url {"url": "http://www.tianyancha.com/company/383938054", "sessionId": "1d246730-f35a-11e6-b90a-1b3e4ebbf514"}
+2017-02-15 16:38:30 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:30 [tyc] INFO: url http://www.tianyancha.com/company/383938054
+2017-02-15 16:38:37 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50392/wd/hub/session/1d246730-f35a-11e6-b90a-1b3e4ebbf514/source {"sessionId": "1d246730-f35a-11e6-b90a-1b3e4ebbf514"}
+2017-02-15 16:38:37 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:37 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50392/wd/hub/session/1d246730-f35a-11e6-b90a-1b3e4ebbf514 {"sessionId": "1d246730-f35a-11e6-b90a-1b3e4ebbf514"}
+2017-02-15 16:38:37 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:37 [tyc] INFO: 企业名 昆明奥凯行汽车配件销售有限公司
+2017-02-15 16:38:42 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50419/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:38:42 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:42 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50419/wd/hub/session/283ea860-f35a-11e6-a51e-635caa4880ae/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%A0%AA%E9%BE%99%E4%B8%80%E5%B1%B1%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "283ea860-f35a-11e6-a51e-635caa4880ae"}
+2017-02-15 16:38:47 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50419/wd/hub/session/283ea860-f35a-11e6-a51e-635caa4880ae/element {"using": "class name", "value": "query_name", "sessionId": "283ea860-f35a-11e6-a51e-635caa4880ae"}
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50419/wd/hub/session/283ea860-f35a-11e6-a51e-635caa4880ae/element/:wdc:1487147931569/attribute/href {"name": "href", "id": ":wdc:1487147931569", "sessionId": "283ea860-f35a-11e6-a51e-635caa4880ae"}
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50419/wd/hub/session/283ea860-f35a-11e6-a51e-635caa4880ae {"sessionId": "283ea860-f35a-11e6-a51e-635caa4880ae"}
+2017-02-15 16:38:51 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:51 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2335752099
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/759686618> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2336671379> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/company/2339715722> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E8%BF%9E%E6%89%BF%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E9%94%80%E5%94%AE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%81%92%E7%A1%95%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%96%B0%E6%9B%99%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+2017-02-15 16:38:51 [scrapy] INFO: Crawled 57 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%94%AB%E6%8B%93%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%94%AB%E6%8B%93%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox took longer than 180.0 seconds..
+2017-02-15 16:38:51 [scrapy] DEBUG: Retrying <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%BE%B3%E4%B8%B4%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (failed 1 times): User timeout caused connection failure: Getting http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%BE%B3%E4%B8%B4%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox took longer than 180.0 seconds..
+2017-02-15 16:38:52 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%B4%AB%E6%A3%AE%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:38:52 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2341027480> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%91%AB%E7%A8%8B%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:38:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50450/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:38:57 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:38:57 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50450/wd/hub/session/30cf7f90-f35a-11e6-9d07-4572d068913f/url {"url": "http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%B4%AB%E6%A3%AE%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox", "sessionId": "30cf7f90-f35a-11e6-9d07-4572d068913f"}
+2017-02-15 16:39:10 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50450/wd/hub/session/30cf7f90-f35a-11e6-9d07-4572d068913f/element {"using": "class name", "value": "query_name", "sessionId": "30cf7f90-f35a-11e6-9d07-4572d068913f"}
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:50450/wd/hub/session/30cf7f90-f35a-11e6-9d07-4572d068913f/element/:wdc:1487147954185/attribute/href {"name": "href", "id": ":wdc:1487147954185", "sessionId": "30cf7f90-f35a-11e6-9d07-4572d068913f"}
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:50450/wd/hub/session/30cf7f90-f35a-11e6-9d07-4572d068913f {"sessionId": "30cf7f90-f35a-11e6-9d07-4572d068913f"}
+2017-02-15 16:39:14 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:39:14 [tyc] INFO: 成功搜索到 http://www.tianyancha.com/company/2326335982
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E7%A7%91%E6%9D%B0%E4%BB%95%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/1227257924> (referer: http://www.tianyancha.com/search?key=%E7%92%A7%E5%B1%B1%E5%8C%BA%E5%BE%B7%E4%B8%B0%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E5%8E%82&checkFrom=searchBox)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%99%BA%E6%98%8A%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%BE%B3%E4%B8%B4%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox> (referer: None)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2336147647> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E6%B0%B4%E5%9C%A3%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2334481766> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E9%93%B6%E8%81%AA%E6%8A%95%E5%85%B4%E6%B1%BD%E8%BD%A6%E9%9B%B6%E9%83%A8%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:39:14 [scrapy] DEBUG: Crawled (200) <GET http://www.tianyancha.com/company/2339725043> (referer: http://www.tianyancha.com/search?key=%E9%87%8D%E5%BA%86%E5%B8%82%E5%90%8C%E8%B4%A8%E6%B1%BD%E8%BD%A6%E9%85%8D%E4%BB%B6%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&checkFrom=searchBox)
+2017-02-15 16:39:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50497/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"version": "", "phantomjs.page.settings.userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Mobile Safari/537.36", "platform": "ANY", "browserName": "phantomjs", "javascriptEnabled": true}}
+2017-02-15 16:39:19 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2017-02-15 16:39:19 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:50497/wd/hub/session/3e0acc00-f35a-11e6-8ae4-e796baf04c4a/url {"url": "http://www.tianyancha.com/company/2341027480", "sessionId": "3e0acc00-f35a-11e6-8ae4-e796baf04c4a"}
